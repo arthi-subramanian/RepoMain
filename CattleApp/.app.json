@@ -9,6 +9,7 @@
           "type": "kendo-ui-mobile:about",
           "name": "homeModel",
           "appName": "Cattle App",
+          "appVersion": "Version 1",
           "appIcon": "BCI_Logo.png",
           "appDescription": "App description",
           "contactButton": true,
