@@ -1,4 +1,35 @@
-<div data-role="view" data-title="Home View" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
+<div data-role="view" data-title="Home" data-layout="main" data-model="app.home" data-show="app.home.onShow" data-after-show="app.home.afterShow">
+    <div class="about-view" data-bind="invisible:error">
+        <div class="icon-group">
+
+            <div class="app-icon">
+                <img src="resources/BCI_Logo.png">
+            </div>
+
+
+            <div class="app-details">
+                <h2>Cattle App</h2>
+
+            </div>
+        </div>
+
+        <p>App description</p>
+
+        <div class="button-group button-group-vertical">
+            <a data-role="button" data-rel="external" href="mailto:support@example.com">Contact us</a>
+
+
+        </div>
+        <!-- START_CUSTOM_CODE_homeModel -->
+        <div>
+            <ul>
+                <li><a href="#">Sample Reports</a></li>
+                <li><a href="#">About this App</a></li>
+            </ul>
+        </div>
+
+        <!-- END_CUSTOM_CODE_homeModel -->
+    </div>
 
     <!-- START_CUSTOM_CODE_home -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->

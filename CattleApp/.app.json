@@ -4,16 +4,28 @@
     {
       "type": "kendo-ui-mobile:view",
       "name": "home",
-      "components": [],
-      "title": "Home View",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:about",
+          "name": "homeModel",
+          "appName": "Cattle App",
+          "appIcon": "BCI_Logo.png",
+          "appDescription": "App description",
+          "contactButton": true,
+          "contactLabel": "Contact us",
+          "contactMail": "support@example.com",
+          "facebookButton": false,
+          "twitterButton": false
+        }
+      ],
+      "title": "Home",
       "addToNavigation": true,
       "icon": "home"
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
+  "navigation": "drawer",
   "view": "home",
-  "transition": "slide",
-  "skin": "flat"
+  "skin": "nova"
 }
